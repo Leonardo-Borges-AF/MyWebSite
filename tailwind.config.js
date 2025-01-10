@@ -45,6 +45,7 @@ export default {
       },
       fontFamily: {
         main: "Inter",
+        permanentMarker: ["Permanent Marker", "sans-serif"]
       },
     },
   },
