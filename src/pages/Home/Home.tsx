@@ -11,7 +11,7 @@ import { StayConnected } from "./components/StayConnected.component";
 import { TheNortechEcosystem } from "./components/TheNortechEcosysten.components";
 import { UnlockExclusiveBenefits } from "./components/UnlockExclusiveBenefits.component";
 import { UnlockRewardsProofStudy } from "./components/UnlockRewardsProofStudy.component";
-
+import { Session3 } from "./components/Session3.components";
 
 export const Home = () => {
   return (
@@ -19,6 +19,7 @@ export const Home = () => {
       <Header />
       <Session1 />
       <Session2 />
+      <Session3 />
       <JoinWaitlist01 />
       <TheNortechEcosystem />
       <UnlockRewardsProofStudy />
