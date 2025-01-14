@@ -12,6 +12,7 @@ import { TheNortechEcosystem } from "./components/TheNortechEcosysten.components
 import { UnlockExclusiveBenefits } from "./components/UnlockExclusiveBenefits.component";
 import { UnlockRewardsProofStudy } from "./components/UnlockRewardsProofStudy.component";
 import { Session3 } from "./components/Session3.components";
+import { Conhecimentos } from "./components/Conhecimentos.components";
 
 export const Home = () => {
   return (
@@ -20,6 +21,7 @@ export const Home = () => {
       <Session1 />
       <Session2 />
       <Session3 />
+      <Conhecimentos />
       <JoinWaitlist01 />
       <TheNortechEcosystem />
       <UnlockRewardsProofStudy />

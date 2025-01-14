@@ -7,7 +7,7 @@ import { IoEyeSharp } from "react-icons/io5";
 
 export const Session3 = () => {
   return (
-    <div id="session-2" className="bg-[#0D0D0D] relative overflow-hidden">
+    <div id="session-2" className="bg-[#0D0D0D] relative">
       <div className="py-14 relative max-w-[1184px] mx-auto flex flex-col gap-14 w-full items-center">
         <h4 className="text-[#098FD3] font-bold text-5xl">Projetos</h4>
         <div className="flex flex-col w-full gap-6 items-center">
@@ -16,19 +16,19 @@ export const Session3 = () => {
               title="Nortech APP"
               image={nortech}
               text="Este website é uma apresentação da empresa Nortech utilizado para chamar clientes de todo o mundo"
-              subTitle="TS-React.Js-Tailwind-CSS"
+              subTitle="TS - React.Js - Tailwind - CSS"
             />
             <Card
               title="Cryptosync"
               image={cryptosync}
               text="Esta pagina foi projetada para apresentar os serviços e trabalhos da empresa cryptosync-AU"
-              subTitle="TS-React.Js-Tailwind-CSS"
+              subTitle="TS - React.Js - Tailwind - CSS"
             />
             <Card
               title="Rise Capital Funds"
               image={rise}
               text="Este website é uma apresentação da empresa Nortech utilizado para chamar clientes"
-              subTitle="TS-React.Js-Tailwind-CSS"
+              subTitle="TS - React.Js - Material UI - CSS"
             />
           </div>
         </div>
@@ -50,7 +50,7 @@ const Card = ({ title, image, text, subTitle }: TCard) => {
       <div className="w-[250px] overflow-hidden flex relative">
         <div className="hidden group-hover:flex items-center justify-center gap-4 absolute w-full h-full">
           <button className="bg-transparent">
-            <AiFillGithub className="size-16 text-[#098FD3] transition-all duration-500 hover:text-slate-950" />
+            <AiFillGithub className="size-16 text-[#098FD3]  transition-all duration-500 hover:text-slate-950" />
           </button>
           <button className="bg-transparent">
             <IoEyeSharp className="size-16 text-[#098FD3] text-opacity-100 transition-all duration-500 hover:text-slate-950" />
@@ -61,7 +61,7 @@ const Card = ({ title, image, text, subTitle }: TCard) => {
       <p className="text-lg text-center text-white text-opacity-80 max-w-[250px]">
         {text}
       </p>
-      <p className="text-white text-opacity-80 text-center text-xl">
+      <p className="text-white text-opacity-80 text-center text-lg">
         {subTitle}
       </p>
     </div>
