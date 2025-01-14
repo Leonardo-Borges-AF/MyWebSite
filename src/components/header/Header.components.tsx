@@ -14,28 +14,28 @@ export const Header = () => {
           Leonardo Borges
         </a>
         <div className="flex gap-8 items-center justify-center">
-          <a href="" className="text-[#098FD3]">
+          <a href="#SobreMim" className="text-[#098FD3]">
             Sobre mim
           </a>
-          <a href="" className="text-[#098FD3]">
+          <a href="#Projetos" className="text-[#098FD3]">
             Projetos
           </a>
-          <a href="" className="text-[#098FD3]">
+          <a href="#Conhecimentos" className="text-[#098FD3]">
             Conhecimentos
           </a>
-          <a href="" className="text-[#098FD3]">
+          <a href="#FaleComigo" className="text-[#098FD3]">
             Fale comigo
           </a>
         </div>
 
         <div className="flex gap-4">
-          <a href="">
+          <a href="https://github.com/Leonardo-Borges-AF">
             <FaSquareGithub className="text-[#098FD3] size-8" />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/leonardoborgesaf/">
             <FaLinkedinIn className="text-[#098FD3] size-8" />
           </a>
-          <a href="">
+          <a href="https://www.instagram.com/leoborgesaf/">
             <FaInstagram className="text-[#098FD3] size-8" />
           </a>
         </div>

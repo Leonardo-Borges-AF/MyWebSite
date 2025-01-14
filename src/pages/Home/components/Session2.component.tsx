@@ -3,7 +3,7 @@ import bitcoin from "/images/bitcoin.png";
 
 export const Session2 = () => {
   return (
-    <div id="session-2" className="bg-[#141414] relative overflow-hidden">
+    <div id="SobreMim" className="bg-[#141414] relative overflow-hidden">
       <div className="py-11 relative max-w-[1184px] mx-auto flex justify-between w-full items-center">
         <img
           src={bitcoin}

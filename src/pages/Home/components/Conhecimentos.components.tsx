@@ -13,7 +13,10 @@ import { CSSProperties } from "react";
 
 export const Conhecimentos = () => {
   return (
-    <div className="flex flex-col py-24 gap-20 bg-[#141414] relative items-center">
+    <div
+      id="Conhecimentos"
+      className="flex flex-col py-24 gap-20 bg-[#141414] relative items-center"
+    >
       <h3 className="font-bold text-5xl text-[#098FD3]">Conhecimentos</h3>
       <div className="max-w-[1184px] mx-auto flex flex-col gap-16">
         <div className="flex gap-16">

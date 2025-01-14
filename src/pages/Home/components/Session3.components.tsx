@@ -7,7 +7,7 @@ import { IoEyeSharp } from "react-icons/io5";
 
 export const Session3 = () => {
   return (
-    <div id="session-2" className="bg-[#0D0D0D] relative">
+    <div id="Projetos" className="bg-[#0D0D0D] relative">
       <div className="py-14 relative max-w-[1184px] mx-auto flex flex-col gap-14 w-full items-center">
         <h4 className="text-[#098FD3] font-bold text-5xl">Projetos</h4>
         <div className="flex flex-col w-full gap-6 items-center">
