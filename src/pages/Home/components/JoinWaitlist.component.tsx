@@ -18,23 +18,28 @@ export const JoinWaitlist = () => {
           <h2 className="md:text-4xl text-[28px] font-bold text-white leading-tight">
             Be the First to Experience Nortech
           </h2>
-          <a href="https://tally.so/r/3NLVMO" target="_blank" rel="noopener noreferrer" className="mx-auto">
+          <a
+            href="https://tally.so/r/3NLVMO"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mx-auto"
+          >
             <button
               className="flex gap-[10px] py-4 bg-white border-[4px] border-[#6001D1] border-opacity-70 rounded-lg group hover-button"
-              style={{ boxShadow: "0px 8px 24px 0px #AE6BFF" }}>
+              style={{ boxShadow: "0px 8px 24px 0px #AE6BFF" }}
+            >
               <img src={EmailIcon} className="size-6 group-hover:hidden" />
-              <img src={emails} className="size-6 hidden group-hover:block relative z-10" />
+              <img
+                src={emails}
+                className="size-6 hidden group-hover:block relative z-10"
+              />
               <p className="text-[#6001D1] group-hover:text-white z-10">
                 Join the waitlist
               </p>
             </button>
           </a>
-
-
         </div>
       </div>
-
     </div>
-
   );
 };
